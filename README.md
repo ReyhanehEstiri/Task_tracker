@@ -1,6 +1,9 @@
 # Task Tracker CLI
 
-A simple command line application to track and manage your tasks, built with pure Python.
+
+A simple command line app to manage tasks, built with pure Python.
+
+This project is based on the [Task Tracker](https://roadmap.sh/projects/task-tracker) challenge from roadmap.sh.
 
 
 ## Usage
