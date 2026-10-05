@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "description": "Buy groceries and cook dinner",
+        "status": "todo",
+        "createdAt": "2026-10-05 17:44:24",
+        "updatedAt": "2026-10-05 17:47:15"
+    },
+    {
+        "id": 2,
+        "description": "English class",
+        "status": "todo",
+        "createdAt": "2026-10-05 17:45:21",
+        "updatedAt": "2026-10-05 17:45:21"
+    },
+    {
+        "id": 3,
+        "description": "Study Python",
+        "status": "todo",
+        "createdAt": "2026-10-05 17:47:37",
+        "updatedAt": "2026-10-05 17:47:37"
+    }
+]
