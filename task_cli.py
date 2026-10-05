@@ -8,7 +8,6 @@ VALID_STATUSES = ("todo", "in-progress", "done")
 
 
 def load_tasks():
-    """Read tasks from the JSON file. Create the file if it doesn't exist."""
     if not os.path.exists(TASKS_FILE):
         with open(TASKS_FILE, "w", encoding="utf-8") as f:
             json.dump([], f)
@@ -25,7 +24,6 @@ def load_tasks():
 
 
 def save_tasks(tasks):
-    """Write tasks to the JSON file."""
     with open(TASKS_FILE, "w", encoding="utf-8") as f:
         json.dump(tasks, f, indent=4, ensure_ascii=False)
 
